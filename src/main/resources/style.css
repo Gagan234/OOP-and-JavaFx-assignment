@@ -1,0 +1,20 @@
+.menu-bar
+{
+    -fx-background-color: #9a4418;
+}
+
+BorderPane
+{
+    -fx-background-color: #a9754b;
+}
+
+VBox
+{
+    -fx-background-color: #8ab951;
+}
+
+Button
+{
+    -fx-background-color: #8a5b13;
+    -fx-background-radius: 5px;
+}
