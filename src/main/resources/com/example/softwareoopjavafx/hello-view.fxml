@@ -44,7 +44,7 @@
       </MenuBar>
    </top>
    <center>
-      <TableView maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="500.0" prefWidth="651.0" BorderPane.alignment="TOP_LEFT">
+      <TableView prefHeight="500.0" prefWidth="651.0" BorderPane.alignment="TOP_LEFT">
         <columns>
           <TableColumn prefWidth="50.0" text="ID" />
           <TableColumn prefWidth="100.0" text="First Name " />
@@ -65,7 +65,7 @@
          </BorderPane.margin></ImageView>
    </left>
    <right>
-      <VBox prefHeight="475.0" prefWidth="224.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="506.0" prefWidth="224.0" BorderPane.alignment="CENTER">
          <children>
             <TextField promptText="First Name ">
                <VBox.margin>
@@ -94,7 +94,7 @@
             </TextField>
             <TextField promptText="imageURL">
                <VBox.margin>
-                  <Insets bottom="120.0" left="10.0" right="10.0" top="10.0" />
+                  <Insets bottom="100.0" left="10.0" right="10.0" top="10.0" />
                </VBox.margin>
             </TextField>
             <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="30.0" prefWidth="135.0" text="Clear">
